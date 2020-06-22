@@ -1,0 +1,337 @@
+{
+	
+	"pages": [ //pages数组中第一项表示应用启动页，参考：https://uniapp.dcloud.io/collocation/pages
+		{
+			"path": "pages/index/index",
+			"style": {
+				"navigationBarTitleText": "康复学院",
+				"navigationStyle":"custom",
+				"enablePullDownRefresh":true,
+				"backgroundTextStyle": "dark" // 下拉 loading 的样式
+			}
+		},
+		{
+			"path": "pages/person/index",
+			"style": {
+				"navigationBarTitleText": "我的",
+				"navigationStyle":"custom",
+				"navigationBarTextStyle": "white",
+				"backgroundColorBottom":"",
+				"disableScroll":true 
+			}
+		},
+		{
+			"path": "pages/study/index",
+			"style": {
+				"navigationBarTitleText": "学习中心",
+				"navigationStyle":"custom",
+				"disableScroll":true ,
+				"navigationBarTextStyle": "white"
+				// "app-plus": {
+				// 	"titleNView": { 
+				// 		"titleIcon":"static/image/icon/icon_fanhui@2x.png",
+				// 		"type": "transparent",
+				// 		"backgroundColor":"#FFFFFF",
+				// 		"titleColor":"#333333",
+				// 		"titleText":"学习中心"
+				// 	}  
+				// }  
+			}
+		},
+		{
+			"path": "uview-ui/components/u-avatar-cropper/u-avatar-cropper",
+			"style": {
+				"navigationBarTitleText": "头像裁剪",
+				"navigationBarBackgroundColor": "#000000"
+			}
+		},
+		{
+			"path": "pages/course/class",
+			"style": {
+				"navigationBarTitleText": "课程分类",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/course/list",
+			"style": {
+				"navigationBarTitleText": "课程列表",//直播课列表
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/course/index",
+			"style": {
+				"navigationBarTitleText": "课程详情",
+				"navigationStyle":"custom",
+				"app-plus":{
+					"softinput" : {
+						"mode" : "adjustPan"//软键盘和固定定位的问题
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/course/video",
+			"style": {
+				"navigationBarTitleText": "课程视频的详情",
+				"navigationStyle":"custom",
+				"app-plus":{
+					"softinput" : {
+						"mode" : "adjustPan"//软键盘和固定定位的问题
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/liveCourse/index",
+			"style": {
+				"navigationBarTitleText": "直播课",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/comment/index",
+			"style": {
+				"navigationBarTitleText": "全部评论",
+				"navigationStyle":"custom",
+				"disableScroll":true ,
+				"app-plus":{
+					"softinput" : {
+						"mode" : "adjustPan"//软键盘和固定定位的问题
+					}
+					
+				}
+			}
+		},
+		{
+			"path": "pages/comment/details",
+			"style": {
+				"navigationBarTitleText": "评论详情",
+				"navigationStyle":"custom",
+				"disableScroll":true ,
+				"app-plus":{
+					"softinput" : {
+						"mode" : "adjustPan"//软键盘和固定定位的问题
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/video/index",
+			"style": {
+				"navigationBarTitleText": "单个视频详情页",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/search/index",
+			"style": {
+				"navigationBarTitleText": "搜索",
+				"navigationStyle":"custom",
+				"app-plus":{
+					"softinput" : {
+						"mode" : "adjustPan"//软键盘和固定定位的问题
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/search/list",
+			"style": {
+				"navigationBarTitleText": "搜索列表页",
+				"navigationBarTextStyle":"white",  //状态栏字体颜色
+				"navigationStyle":"custom",
+				"app-plus":{
+					"softinput" : {
+						"mode" : "adjustPan"//软键盘和固定定位的问题
+					}
+				}
+			}
+		},
+		{
+			"path": "pages/news/index",
+			"style": {
+				"navigationBarTitleText": "消息",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/news/details",
+			"style": {
+				"navigationBarTitleText": "消息详情",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/person/vip",
+			"style": {
+				"navigationBarTitleText": "我的vip会员",
+				"navigationBarTextStyle":"white",  //状态栏字体颜色
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/person/bookshelf",
+			"style": {
+				"navigationBarTitleText": "我的书房",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/person/collection",
+			"style": {
+				"navigationBarTitleText": "我的收藏",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/setsystem/index",
+			"style": {
+				"navigationBarTitleText": "设置",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/setsystem/changePassword",
+			"style": {
+				"navigationBarTitleText": "修改密码",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/setsystem/bindPhone",
+			"style": {
+				"navigationBarTitleText": "绑定手机号",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/setsystem/aboutus",
+			"style": {
+				"navigationBarTitleText": "关于我们",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/setsystem/feedback",
+			"style": {
+				"navigationBarTitleText": "意见反馈",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/order/index",
+			"style": {
+				"navigationBarTitleText": "我的订单",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/order/details",
+			"style": {
+				"navigationBarTitleText": "订单详情",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/login/index",
+			"style": {
+				"navigationBarTitleText": "手机号登录",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/login/accountLogin",
+			"style": {
+				"navigationBarTitleText": "账户密码登录",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/person/updateVersions",//页面升级
+			"style": {
+				"navigationStyle": "custom",  // 取消本页面的导航栏
+				"app-plus": {
+					"animationType": "fade-in", // 设置fade-in淡入动画，为最合理的动画类型
+					"background": "transparent", // 背景透明
+					"backgroundColor": "rgba(0,0,0,0)", // 背景透明
+					"popGesture": "none" // 关闭IOS屏幕左边滑动关闭当前页面的功能
+				}
+			}
+		},
+		{
+			"path": "pages/login/resetPass",
+			"style": {
+				"navigationBarTitleText": "重置密码",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/login/setPass",
+			"style": {
+				"navigationBarTitleText": "设置密码",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/login/agreement",
+			"style": {
+				"navigationBarTitleText": "注册协议",
+				"navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/webview/webview",
+			"style": {
+				"navigationBarTitleText": ""
+				// "navigationStyle":"custom"
+			}
+		},
+		{
+			"path": "pages/testpage/index",
+			"style": {
+				"navigationBarTitleText": "测试的页面",
+				"navigationStyle":"custom"
+			}
+		}
+	],
+	"globalStyle": {
+		"navigationBarTextStyle": "black",
+		"navigationBarBackgroundColor": "#FFFFFF",
+		"backgroundColorBottom":"#F8F8F8",
+		"backgroundColorTop":"#F8F8F8"
+		// "transparentTitle":"always",
+		// "navigationStyle":"custom"
+	},
+	"tabBar":{
+		"selectedColor": "#25B4B5",
+		"backgroundColor": "#ffffff",
+		// "borderStyle":"white",
+		"list":[
+				{
+					"pagePath":"pages/index/index",
+					"text":"首页",
+					"iconPath":"static/image/icon/home_bar_index0.png",
+					"selectedIconPath":"static/image/icon/home_bar_index.png"
+				},
+					
+				{
+					"pagePath":"pages/study/index",
+					"text":"学习中心",
+					"iconPath":"static/image/icon/home_bar_study0.png",
+					"selectedIconPath":"static/image/icon/home_bar_study.png"
+				},
+				{
+					"pagePath":"pages/person/index",
+					"text":"我的",
+					"iconPath":"static/image/icon/home_bar_us0.png",
+					"selectedIconPath":"static/image/icon/home_bar_us.png"
+				}]
+	},
+	//此为需要加入的内容，如果不是把uView放在根目录，请根据情况修改路径
+	"easycom": {
+		"^u-(.*)": "@/uview-ui/components/u-$1/u-$1.vue"
+		// "^u-(.*)": "@/uview/components/u-$1/u-$1.vue"
+	}
+}

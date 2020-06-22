@@ -1,0 +1,286 @@
+.pad30{
+	padding: 0 30rpx;
+}
+.flex{
+	display: flex;
+}
+.flex-center{
+	display: flex;
+	align-items: center;
+}
+.flex-centerH{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+.flex-vertical{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+}
+.flex-between{
+	display: flex;
+	align-items:center;
+	justify-content: space-between;
+}
+.flex-end{
+	display: flex;
+	flex-direction: row-reverse;
+	align-items: center;
+	justify-content:space-between
+}
+.ellipsis-1{
+	overflow: hidden;
+	text-overflow:ellipsis;
+	white-space: nowrap;
+}
+//
+.line{//分割线
+	width: 100%;
+	height: 16rpx;
+	background-color: #EDEEF0;
+}
+//头部返回按钮
+.nav_back_icon{
+	width: 20rpx;
+	height: 34rpx;
+}
+//头部导航bar
+.nav-slot-wrap {
+	width: 100%;
+	.index_nav{
+		display: flex;
+		height: 88rpx;
+		line-height: 88rpx;
+		align-items: center;
+		padding: 0 24rpx;
+		.search_icon,.menu_icon{
+			width: 44rpx;
+			height: 44rpx;
+		}
+		.title{
+			flex: 1;
+			text-align: center;
+			font-weight: bold;
+			color: #333333;
+		}
+	}
+}
+.kf_collect_icon{
+	width: 44rpx;
+	height: 44rpx;
+}
+.kf_share_icon{
+	width: 44rpx;
+	height: 44rpx;
+}
+.kf_user_icon{
+	width: 19rpx;
+	height: 22rpx;
+}
+.kf_commreplay_icon{
+	width: 25rpx;
+	height: 22rpx;
+	margin-right: 8rpx;
+}
+.kf_comzan_icon{
+	width: 23rpx;
+	height: 24rpx;
+	margin-right: 8rpx;
+}
+.kf_audition_icon{
+	width: 32rpx;
+	height: 32rpx;
+}
+.kf_pay_icon{
+	width: 43rpx;
+	height: 31rpx;
+}
+.kf_comment_more{
+	height: 104rpx;
+	line-height: 104rpx;
+	text-align: center;
+	color: #BBBBBB;
+	font-size: 24rpx;
+}
+.kf_course_playicon{
+	width: 22rpx;
+	height: 22rpx;
+	margin-right: 10rpx;
+}
+.kf_course_playbtn{
+	width: 40rpx;
+	height: 40rpx;
+}
+.kf_course_ztbtn{
+	width: 40rpx;
+	height: 40rpx;
+}
+.kf_course_suobtn{
+	width: 32rpx;
+	height: 41rpx;
+	padding-right: 4rpx;
+}
+.comment_no_wrap{
+	padding: 60rpx 0;
+	.kf_nocomment_pic{
+		width: 243rpx;
+		height: 161rpx;
+		margin-bottom: 44rpx;
+	}
+	.no_text{
+		font-size: 28rpx;
+		color: #BCBCBC;
+	}
+}
+//没有数据状态
+.data_no_wrap{
+	padding-bottom: 60rpx;
+	.kf_nodata_pic{
+		width: 243rpx;
+		height: 161rpx;
+		margin-bottom: 50rpx;
+	}
+	.no_text{
+		font-size: 28rpx;
+		color: #CBCBCB
+	}
+}
+
+.kf_delete_btn{
+	width: 44rpx;
+	height: 44rpx;
+}
+
+//评论弹框里面的确定
+.kf_sure_btn{
+	width: 104rpx;
+	height: 63rpx;
+	text-align: center;
+	line-height: 63rpx;
+	background-color: #B0CCF9;
+	color: #FDFDFD;
+	font-size: 28rpx;
+	border: 0;
+	border-radius: 10rpx;
+	padding: 0;
+	margin: 0;
+	&:after{
+		border: 0;
+	}
+}
+//写评论按钮
+.kf_edit_btn{
+	width: 158rpx;
+	height: 50rpx;
+	border-radius: 50rpx;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	font-size: 22rpx;
+	color: #fff;
+	cursor: pointer;
+	background: linear-gradient(to right, #F78B3E, #FC7412);
+	.kf_edit_icon{
+		width: 27rpx;
+		height: 27rpx;
+		margin-right: 12rpx;
+	}
+}
+//分享
+.sharePopup_wrap{
+	.share_popup_inner{
+		display: flex;
+		padding-bottom: 60rpx;
+	}
+	.share_title{
+		padding-top: 40rpx;
+		padding-bottom: 30rpx;
+		color: #222222;
+		font-size: 30rpx;
+		text-align: center;
+		font-weight: bold;
+	}
+	.share_list{
+		width: 25%;
+		color: #222222;
+		font-size: 28rpx;
+	}
+	.share_outer_icon{
+		width: 100rpx;
+		height: 100rpx;
+		margin-bottom: 10rpx;
+	}
+	.share_cancle_wrap{
+		padding-left: 30rpx;
+		padding-right: 30rpx;
+	}
+	.share_cancle_btn{
+		height: 100rpx;
+		text-align: center;
+		line-height: 100rpx;
+		border-top: 1rpx solid #EEEEEE;
+		color: #006af1;
+	}
+}
+//支付弹框
+.payPopup_wrap{
+	// padding-top:20rpx;
+	// padding-bottom: 40rpx;
+	height: 550rpx;
+	padding: 60rpx 20rpx 10rpx;
+	.pay_title{
+		font-size:36rpx;
+		font-weight:bold;
+		color:#121212;
+		margin-bottom: 20rpx;
+		padding-left: 60rpx;
+		padding-right: 60rpx;
+	}
+	.pay_num{
+		font-size:30rpx;
+		font-weight:bold;
+		color:#25B4B5;
+		text-align: center;
+		margin-bottom: 20rpx;
+	}
+	.num{
+		font-size:36rpx;
+		padding-left: 10rpx;
+		color:#E40000;
+	}
+	.pay_name{
+		margin-left: 10rpx;
+	}
+	.pay_outer_icon{
+		width: 50rpx;
+		height: 50rpx;
+		margin-right: 20rpx;
+		// margin-bottom: 10rpx;
+	}
+	.pay_popup_inner{
+		border-top:1rpx solid #E6EAF2;
+		padding-top: 10rpx;
+		padding-bottom: 40rpx;
+	}
+	.pay_list{
+		height: 80rpx;
+		border-bottom:1rpx solid #f8f8f8;
+	}
+	.right_list{
+		padding-left: 20rpx;
+	}
+	.pay_btn{
+		height: 80rpx;
+		line-height: 80rpx;
+		border-radius: 80rpx;
+		background: linear-gradient(to right, #3EB78D, #3FB9CD);
+	}
+}
+//升级模态框的背景去掉
+.us_update_wrap{
+	.u-mode-center-box,.u-model{
+		background:rgba(0,0,0,0)  !important;
+	}
+}
